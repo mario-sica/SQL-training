@@ -1,0 +1,5 @@
+ALTER TABLE books
+ADD COLUMN publisher VARCHAR(200);
+
+ALTER TABLE books
+ADD COLUMN num_of_pages INTEGER;
